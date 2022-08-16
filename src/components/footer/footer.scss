@@ -1,0 +1,31 @@
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+
+  .footer-logo {
+    h1 {
+      padding: 0.3rem;
+      background-color: #563d7c;
+      color: #fff;
+      border-radius: 5px;
+      font-size: 1.1rem;
+      width: max-content;
+    }
+  }
+
+  .footer-links {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+    ul {
+      li {
+        list-style: none;
+        span {
+          color: gray;
+        }
+      }
+    }
+  }
+}

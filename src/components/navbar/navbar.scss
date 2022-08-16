@@ -1,0 +1,21 @@
+.navbar-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  box-shadow: 2px 2px 1px 1px #ddd;
+
+  .navbar-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+
+    li {
+      list-style: none;
+      span {
+        color: #000;
+      }
+    }
+  }
+}
